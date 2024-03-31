@@ -224,10 +224,10 @@ Recuerda que este es solo un ejemplo ilustrativo, pero espero que te ayude a ent
 <h3 id="sponsors">Sponsors</h3>
 
   <img  src="https://avatars3.githubusercontent.com/u/14262490?v=3&amp;s=70">
+
   <img src="https://opencollective.com/solid/sponsor/4/avatar.svg">
-<img src="https://opencollective.com/solid/sponsor/3/avatar.svg">
-<img src="https://opencollective.com/solid/sponsor/10/avatar.svg">
-<img src="https://opencollective.com/solid/sponsor/8/avatar.svg">
+
+
 
 
 
