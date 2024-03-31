@@ -11,6 +11,7 @@
 - [***Ventajas de Solid***](#ventajas-de-solid)
 - [***Desventajas de Solid:***](#desventajas-de-solid)
 - [***Importancia:***](#importancia)
+- [***Conlusion***](#conlusion)
 
 
  ## ***Que es Solid***
@@ -220,6 +221,10 @@ Recuerda que este es solo un ejemplo ilustrativo, pero espero que te ayude a ent
   3. ***Calidad del Producto Final:***
       *  Las buenas prácticas contribuyen a un producto final de alta calidad.
       *  Los usuarios se benefician de aplicaciones más estables, rápidas y confiables.
+  
+  ## ***Conlusion***
+*La utilización de SolidJS como framework para el desarrollo de aplicaciones web ofrece ventajas significativas en términos de reactividad eficiente, integración con TypeScript, simplicidad en la sintaxis, rendimiento optimizado y comunidad activa. Estas características hacen que SolidJS sea una opción atractiva para desarrolladores que buscan construir aplicaciones web modernas, robustas y eficientes.*
+
 
 <h3 id="sponsors">Sponsors</h3>
 
