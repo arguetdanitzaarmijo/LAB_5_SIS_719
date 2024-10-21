@@ -25,38 +25,35 @@ console.log(result2);
   function calculateArea(calculator: AreaCalculator, ...dimensions:number[]): number {
     return calculator(dimensions);
   }
- const calcuLateRectangleArea: AreaCalculator =([length, Width]) => length*Width;
- const calculateCircleArea: AreaCalculator =([radius])=>Math.PI*radius*radius;
+const calcuLateRectangleArea: AreaCalculator =([length, Width]) => length*Width;
+const calculateCircleArea: AreaCalculator =([radius])=>Math.PI*radius*radius;
   
  console.log(calculateArea(calcuLateRectangleArea, 2, 2)); //4
  console.log(calculateArea(calculateCircleArea, 3)) //28.274333882308138
   
   // EX - 3
   //No es necesario aumentar codigo en este ejercicio
-  function validate<T>(input: T, validationFunction: (value: T) => boolean): boolean {
-    return validationFunction(input);
-}
-
-function validateEmail(email: string): boolean {
-    // ...código para validar aquí
+  
+  function validate<T>(input: T, validationFn: (value: T) => boolean): boolean {
+    return validationFn(input);
+  }
+  
+  function validateEmail(email: string): boolean {
+    // ... some code for validate here
     return validate(email, (value: string) => {
-        return true;
+      // Lógica de validación de correo electrónico
+      return true;
     });
-}
-
-function validateUsername(username: string): boolean {
-    // ...código para validar aquí
+  }
+  
+  function validateUsername(username: string): boolean {
+    // ... some code for validate here
     return validate(username, (value: string) => {
-        return true;
+      // Lógica de validación de nombre de usuario
+      return true;
     });
-}
-
-// Prueba las funciones
-const emailResult = validateEmail("test@example.com");
-const usernameResult = validateUsername("user123");
-
-console.log(`Resultado de la validación de correo electrónico: ${emailResult}`);
-console.log(`Resultado de la validación de nombre de usuario: ${usernameResult}`);
-
-
+  }
 })();
+
+
+

@@ -1,7 +1,7 @@
 (() => {
 
   /* NOMBRE CORRECTAMETE LAS SIGUIENTES VARIABLES 
-     ADEMAS DE COMPROBAR SI USA LET O CONST,
+    ADEMAS DE COMPROBAR SI USA LET O CONST,
     SE PUEDE REFACTORIZAR, ETC.
   */
    //  Se usa  const para valores que no deben cambiar (como constantes matemáticas o configuraciones inmutables).
@@ -24,12 +24,12 @@
       {product: "X-box Controller"},
       {product: "steam-gift-card"},
   ];
- console.log(shoppingCartItems);
+  console.log(shoppingCartItems);
   
 
   //funcion para sumar mas 3 a un numero y retornarlo
-  const AddThree = (n: number): number => {
-      return n + 3;
+  const AddThree = (num : number): number => {
+      return num+ 3;
   }
   console.log(AddThree (2));
   
@@ -37,45 +37,40 @@
   //funcion para capitalizar una palabra pasara por params
   //idente o refactorice de ser necesario
   //el resultado no deberia cambiar
-  function capitalizeWord(word: string): string {
-    // Convierte toda la palabra a minúsculas
-     word = word.toLowerCase();
-     // Capitaliza la primera letra y concatena el resto de la palabra
-      const capitalizedWord= word.charAt(0).toUpperCase() + word.substring(1);
-       return capitalizedWord;
+  function capitalizeFirstLetter(word: string): string {
+    return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
 }
- console.log(capitalizeWord("capricorn")); // Debería mostrar "Capricorn"
+
+console.log(capitalizeFirstLetter("capricorn"));// Debería mostrar "Capricorn"
 
   
   //variable que alerta en caso de que algun evento suceda
-  const  alertEvent: boolean = true;
-
-      if(alertEvent) {
-      console.log('event');
-      }
+const alertEvent: boolean = true;
+  if (alertEvent) {
+    console.log('event');
+}
     //principalmente no ocurriria nada ya que la variable alertEvent inicializa en false.
 
 
   //variable que se encarga de verificar 
   //si un usuario puede acceder o no
-  const isLogged: boolean = true;
-
+ //si un usuario puede acceder o no
+const isLogged: boolean = true;
   if (isLogged) {
-      console.log('welcome');
-  }
+    console.log('welcome');
+}
  // let c: boolean = true;
 //  if(c) console.log('welcome');
   
   //variable para hallar el promedio de 3 numeros
 
-  const calculateAverage: number = (1 + 2 + 3) / 3;
-
-  console.log(calculateAverage);
+const calculateAverage: number = (1 + 2 + 3) / 3;
+console.log(calculateAverage);
   
    //  Se usa  const para valores que no deben cambiar (como constantes matemáticas
   //variable que almacena el valor de PI
-  const pi: number = 3.141592654;
-  console.log(pi);
+  const PI: number = Math.PI;
+  console.log(PI);
      //  Se usa  const para valores que no deben cambiar (como constantes matemáticas
   
 
@@ -84,13 +79,13 @@
 
   //if(Bv) console.log('edit this file?');
 
-  const  cantEdit: boolean = true;
-  if (cantEdit) {
+  const  fileIsEditable: boolean = true;
+  if (fileIsEditable) {
       console.log('edit this file?');
   }
   //variable para almacenar el valor de e
-  const euler: number = 2.718281828; 
-   console.log(euler);
+  const e: number = Math.E; 
+  console.log(e);
 
 
 })();
