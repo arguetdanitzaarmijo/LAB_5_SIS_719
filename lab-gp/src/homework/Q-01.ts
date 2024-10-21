@@ -4,7 +4,7 @@
     ADEMAS DE COMPROBAR SI USA LET O CONST,
     SE PUEDE REFACTORIZAR, ETC.
   */
-   //  Se usa  const para valores que no deben cambiar (como constantes matemáticas o configuraciones inmutables).
+   //    Se usa  const para valores que no deben cambiar (como constantes matemáticas o configuraciones inmutables).
    // Se usaUsa let para variables que pueden cambiar durante la ejecución del programa.
 
   //lista de emails de usuarios de Meta-X
